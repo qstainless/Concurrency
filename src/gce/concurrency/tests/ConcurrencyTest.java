@@ -9,10 +9,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class ConcurrencyTest {
 
     // Create a sample test array of 10 random numbers from 1 to 10
-    static int[] testArray = {10, 9, 4, 3, 9, 8, 4, 7, 10, 4};
+    static final int[] testArray = {10, 9, 4, 3, 9, 8, 4, 7, 10, 4};
 
     // The expected result to test for assertion equality
-    static int testArraySum = 68;
+    static final int testArraySum = 68;
 
     @Test
     @Order(1)
